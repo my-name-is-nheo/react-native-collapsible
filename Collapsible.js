@@ -142,6 +142,7 @@ export default class Collapsible extends Component {
       toValue: height,
       duration,
       easing,
+      useNativeDriver: true,
     }).start(() => this.setState({ animating: false }));
   }
 
